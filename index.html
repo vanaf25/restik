@@ -1,0 +1,508 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Angular</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <meta name="description" content="Лучшая доставка еды в Богуславе">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Chicken-Food">
+  <meta property="og:type" content="Доставка еды">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/page.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body>
+ <div class="wrapper">
+   <div class="container">
+     <div class="top-bar">
+       <div class="container top__container">
+         <div class="top__content">
+           <a href="#authoration" class="top__link popup-links"><i class="fas fa-sign-in-alt"></i></a>
+           <a href="tel:++380933859992" class="top__link top__link_tel">+38 (093) 385-99-92</a>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="menu">
+     <div class="container menu__container">
+        <div class="menu__logo">
+          <a href="index.html"><img src="img/favicon.png" alt=""></a>
+        </div>
+        <div class="menu__body">
+          <div class="menu__burger">
+            <span></span>
+          </div>
+          <div class="menu__menu">
+            <ul class="menu__list">
+              <li class="menu__li"><a href="" class="menu__link">Home</a></li>
+              <li class="menu__li"><a href="" class="menu__link">Menu</a>
+                <span class="menu__arrow"></span>
+                <ul class="menu__sub-list">
+                  <li class="menu__sub-li"><a href="menu/pizza/index.html" class="menu__sub-link">Pizza</a></li>
+                  <li class="menu__sub-li"><a href="" class="menu__sub-link">Hamburgers</a></li>
+                  <li class="menu__sub-li"><a href="" class="menu__sub-link">Salads</a></li>
+                  <li class="menu__sub-li"><a href="" class="menu__sub-link">Soups</a></li>
+                  <li class="menu__sub-li"><a href="" class="menu__sub-link">Deserts</a></li>
+                  <li class="menu__sub-li"><a href="" class="menu__sub-link">Drinks</a></li>
+                </ul>
+              </li>
+              <li class="menu__li"><a href="" class="menu__link">About us</a></li>
+              <li class="menu__li"><a href="contacts/index.html" class="menu__link">Contacts</a></li>
+              <li class="menu__li"><a href="" class="menu__link">Delivery</a></li>
+            </ul>
+          </div>
+        </div>
+       <div class="menu__cart" >
+         <div class="goods-count">0</div>
+         <a href="" title="Total Price: 0$"><i class="fa fa-shopping-cart"></i></a>
+       </div>
+     </div>
+   </div>
+   <header class="header">
+     <div class="overlay"></div>
+          <div class="header__content">
+            <div class="container header__container">
+            <h1 class="header__title">ANGULAR</h1>
+            <p class="header__p">Delicious and healthy home-cooked food and set lunches delivered to your home or office</p>
+              <div class="button__links">
+                <a href="#page__section_2" class="button-link navigation-link ">Menu</a>
+              </div>
+            </div>
+         </div>
+   </header>
+   <main class="page">
+     <section class="page__section page__section_1">
+       <div class="container">
+         <div class="section__content section__content_1">
+           <div class="section__text">
+             <h2 class="section__title">Welcome to  Angular!</h2>
+             <p class="section__p"><strong>Angular: </strong>
+               This is an indispensable service for those who value tasty, satisfying and high-quality food, but do not have enough time to prepare it. The varied menu that you can find on our website will provide you with a wide range of dishes: from traditional Ukrainian borscht according to old home recipes to a spicy and sophisticated salmon salad. Now your table depends not on your capabilities, but on your choice           </div>
+           <div class="section__image section__image_1">
+             <img src="img/img1.jpg" alt="">
+           </div>
+         </div>
+       </div>
+     </section>
+     <section id="page__section_2" class="page__section page__section_2">
+       <div class="container">
+         <div class="section__content">
+           <h2 class="section__title">Our menu</h2>
+             <div class="section__slider">
+               <div class="section__images">
+                 <div class="section__image">
+                   <a href="menu/pizza"><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/pizza.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Pizza</h3>
+                 </div>
+                 <div class="section__image">
+                   <a href=""><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/arizona.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Hamburgers</h3>
+                 </div>
+                 <div class="section__image">
+                   <a href=""><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/menu_soup_img.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Soups</h3>
+                 </div>
+                 <div class="section__image">
+                   <a href=""><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/cesar.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Salads</h3>
+                 </div>
+                 <div class="section__image">
+                   <a href=""><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/tiramisu.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Deserts</h3>
+                 </div>
+                 <div class="section__image">
+                   <a href=""><div class="section__img">
+                     <div class="overlay"></div>
+                     <img src="img/menu_drinks_img.jpg" alt="img1" class="section__img">
+                   </div></a>
+                   <h3 class="section__title">Drinks</h3>
+                 </div>
+               </div>
+
+             </div>
+         </div>
+         <!--  <div class="image-slider_1 swiper-container">
+             <div class="slider__wrapper_1 swiper-wrapper">
+               <div class="slider__screen_1 swiper-slide"><img src="img/pizza.jpg" alt="whiteCake"></div>
+               <div class="slider__screen_1 swiper-slide"><img src="img/arizona.jpg" alt="brownCake"></div>
+               <div class="slider__screen_1 swiper-slide"><img src="img/menu_soup_img.jpg" alt="pancakes"></div>
+               <div class="slider__screen_1 swiper-slide"><img src="img/cesar.jpg" alt="kitchen"></div>
+               <div class="slider__screen_1 swiper-slide"><img src="img/tiramisu.jpg" alt="salads"></div>
+               <div class="slider__screen_1 swiper-slide"><img src="img/menu_drinks_img.jpg" alt="meals"></div>
+             </div>
+           </div>
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+           <div class="swiper-pagination"></div>-->
+         </div>
+     </section>
+     <section class="page__section page__section_3">
+       <div class="container">
+         <div class="section__content section__content_3">
+           <div class="tab-wrapper">
+             <div class="tab__menu">
+               <ul class="tab__list">
+                 <li class="tab__li active">Chef</li>
+                 <li class="tab__li">Kitchen</li>
+                 <li class="tab__li">Flavor Library</li>
+                 <li class="tab__li">Analytics</li>
+               </ul>
+             </div>
+             <div class="tab__body active">
+               <div class="tab__image">
+                 <img src="img/tab_img2.webp" alt="">
+               </div>
+               <div class="tab__text">
+               <h2 class="section__title section__title_left">Chef</h2>
+               <p class="section__p">
+                 The Chef is a creator in the world of flavors, nutritious ingredients, and top-notch service. He is an inspiration, an explorer, and an artist.
+               </p>
+               <p class="section__p">
+                 And most importantly, he will never stop in his quest for memorable flavors for your healthy nutritional choices. Agree, this is only in our favor!
+               </p>
+             </div>
+           </div>
+           <div class="tab__body">
+             <div class="tab__image">
+               <img src="img/tab_img1.png" alt="">
+             </div>
+             <div class="tab__text">
+               <h2 class="section__title section__title_left">Kitchen</h2>
+               <p class="section__p">
+                 For true flavor connoisseurs, food quality and the level of the kitchen are essential conditions for 100% food enjoyment.
+                 And most importantly, we will never stop in our quest for memorable flavors for your healthy nutritional choices. Agree, this is only in our favor!
+               </p>
+               <p class="section__p">Our kitchen is like a complex operating system. Here, all processes are brought to perfection.</p>
+               <p class="section__p">We adhere to the standards and quality certifications for all our processes.</p>
+             </div>
+           </div>
+           <div class="tab__body">
+             <div class="tab__image">
+               <img src="img/tab_img3.png" alt="">
+             </div>
+             <div class="tab__text">
+               <h2 class="section__title section__title_left">Flavor Library</h2>
+               <p class="section__p">
+                 With Angular, you embark on a world tour of flavors.
+               </p>
+               <p class="section__p">In our menu, we have dishes from different cultures, and the main requirement is the purity of the dishes and the extension of life.</p>
+             </div>
+           </div>
+           <div class="tab__body">
+             <div class="tab__image">
+               <img src="img/tab_img4.webp" alt="">
+             </div>
+             <div class="tab__text">
+               <h2 class="section__title section__title_left">Analytics</h2>
+               <p class="section__p">
+                 Angular is an upgrade of the familiar healthy eating to a new level. We cannot replace a doctor's consultation, but we will be a reliable partner, friend, and guide in the world of vibrant flavors of healthy food.
+               </p>
+               <p class="section__p">Monitoring personal achievements, building new plans, and savoring the taste of food - we make all of this possible with just one click - that's our goal.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
+ </section>
+<!--
+     <section class="page__section page__section_4">
+       <div class="container">
+         <h2 class="page__title page__title_center">Преймущества заказа у нас</h2>
+         <p class="page__p">Angular — это микс знакомых принципов здорового питания с поиском новых вкусов, которые запомнятся.</p>
+         <div class="image-slider swiper-container">
+           <div class="swiper-wrapper image__wrapper">
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">Мы готовим самую натруальную пиццу</h2>
+                 <p class="screen__p screen__p_white"> Здесь вы, несомненно, можете купить пиццу в Киеве и не сомневаться в высоком качестве приготовленного угощения. У нас вы можете заказать самую вкусную пиццу на дом в Киеве. </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">У наших гамбургеров невторимый вкус</h2>
+                 <p class="screen__p screen__p_white">Попробывав однажды наши гамбурегры вы на всегда забудете что такое: McDonalds, KFC, Burger King. Мы владеем скеретным рецептом по приготовлению гамбургеров! </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon2.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">Свежие и полезные салаты</h2>
+                 <p class="screen__p screen__p_white">Все наши салаты очень свежие и натруальные. Все овощи екологически чистые. Мы сами их выращиваем в деревнях.  </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon3.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">Суп как у бабушки</h2>
+                 <p class="screen__p screen__p_white">Когда вы попробуете наш суп, то сразу вспомните супы своих мам и бабушек. Мы специально нанимаем бабушек, чтобы они готовили нам супы, чтобы вы могли вспомнить этот вкус. </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon4.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">Низколалорийные десерты</h2>
+                 <p class="screen__p screen__p_white">Все наши десерты низкокалорийные. Не смотря на это они очень вкусные </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon5.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+             <div class="image__screen swiper-slide">
+               <div class="screen__content">
+                 <h2 class="screen__title screen__title_white">Натуральные напитки</h2>
+                 <p class="screen__p screen__p_white"> Все наши напитки натуральные. Они готовяться из свежих фруктов, каторые только сорваи с деревьев. У нас вы не найдете вредных газировок и соков с пакетиков. </p>
+               </div>
+               <div class="screen__body">
+                 <div class="screen__image">
+                   <div class="screen__eclipse"></div>
+                   <img src="img/fon6.jpg" alt="fon">
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="swiper-pagination"></div>
+         </div>
+       </div>
+     </section>
+-->
+     <section class="page__section page__section_6">
+       <div class="overlay"></div>
+       <div class="container">
+         <div class="section__content">
+           <h2 class="section__title section__title_white">How to Order Food?</h2>
+           <div class="section__blocks">
+             <div class="section__block">
+               <i class="fas fa-cart-arrow-down"></i>
+               <h3 class="section__title">Choose Food</h3>
+               <p class="section__p">A vast selection of diverse dishes will satisfy even the most discerning gourmets. You'll quickly find something to your liking.</p>
+             </div>
+             <div class="section__block">
+               <i class="far fa-money-bill-alt"></i>
+               <h3 class="section__title">Pay for Your Order</h3>
+               <p class="section__p">You can pay for your order online on the website or with a card or cash upon delivery. If you want to pay with a card, please let us know in advance.</p>
+             </div>
+             <div class="section__block">
+               <i class="fas fa-bell"></i>
+               <h3 class="section__title">Receive Your Order</h3>
+               <p class="section__p">When the courier arrives at your door, you should go out and pick up your order.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section class="page__section page__section_5">
+       <div class="container">
+         <div class="section__content section__content_5">
+           <h2 class="section__title">Most Popular Dishes on Our Menu</h2>
+           <div class="section__columns-wrapper">
+             <div class="section__columns">
+               <!-- Content for popular dishes goes here -->
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section class="page__section page__section_7">
+       <div class="overlay"></div>
+       <div class="container">
+         <div class="section__content section__content_7">
+           <h2 class="section__title section__title_white">DELIVERY OF DELICIOUS HOMEMADE FOOD TO YOUR HOME AND OFFICE FROM ANGULAR</h2>
+           <p class="section__p section__p_white">Do you want to enjoy delicious food but lack the time to cook? Angular will help you solve this problem.</p>
+           <p class="section__p section__p_white">Food delivery from Angular is an indispensable service for those who appreciate tasty, filling, and high-quality meals.</p>
+           <p class="section__p section__p_white">When you order from us, you are guaranteed to receive a qualitatively prepared dish because quality is paramount for Angular. Our professional chefs prepare your meals using the freshest ingredients and European standards.</p>
+           <p class="section__p section__p_white">Thanks to Angular, food delivery is faster and more reliable. We will deliver your order to any part of Kiev, and believe us, the food will still be hot!</p>
+           <p class="section__p section__p_white">A vast selection of diverse dishes will satisfy even the most discerning gourmets.</p>
+         </div>
+       </div>
+     </section>
+
+   </main>
+   <div class="page__section sub-footer">
+     <div class="container">
+       <div class="sub__content">
+         <div class="sub_column">
+           <img src="img/favicon.png" alt="">
+         </div>
+         <div class="sub_column">
+           <h3 class="section__title section__title_left1">Offers</h3>
+           <p class="section__p">Delicious Food</p>
+           <p class="section__p">Flavor Library</p>
+           <p class="section__p">Fast Delivery</p>
+         </div>
+         <div class="sub_column">
+           <h3 class="section__title section__title_left1">Information</h3>
+           <p class="section__p"><a href="">Terms of Service</a></p>
+           <p class="section__p"><a href="">Privacy Policy</a></p>
+           <p class="section__p"><a href="">Return Policy</a></p>
+         </div>
+         <div class="sub_column">
+           <h3 class="section__title section__title_left1">Contact</h3>
+           <p class="section__p"><i class="fas fa-phone"></i><a href="tel:+380933859992"> +38 (093) 385-99-92</a></p>
+           <p class="section__p"><i class="fas fa-phone"></i><a href="tel:+380978259992"> +38 (097) 825-99-92</a></p>
+           <p class="section__p"><i class="fab fa-instagram"></i><a href="https://www.instagram.com/vanaf25/"> vanaf25</a></p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <footer class="footer">
+     <div class="container">
+       <div class="footer__content">
+         <p class="footer__p">© 2020 Angular. All Rights Reserved.</p>
+         <p class="footer__p footer__p_right">Made by Ivan Fefilov</p>
+       </div>
+     </div>
+   </footer>
+   <div class="popup-wrapper">
+     <div id="authorization" class="popup">
+       <div class="popup__body">
+         <div class="popup__content">
+           <div class="popup__content-header">
+             <h2 class="popup-title">Log In</h2>
+             <a href="" class="close-popup"><i class="fas fa-times"></i></a>
+           </div>
+           <div class="popup__content__body">
+             <form method="post" action="" class="popup-form">
+               <div class="input-area">
+                 <div class="input-icon"><i class="fas fa-user"></i></div>
+                 <input type="text" class="popup-input" placeholder="Enter your Username">
+               </div>
+               <div class="input-area">
+                 <div class="input-icon"><i class="fas fa-lock"></i></div>
+                 <input type="password" class="popup-input" placeholder="Enter your Password">
+               </div>
+               <div class="popup-button-area">
+                 <button class="popup-button">Log In</button>
+               </div>
+               <div class="popup-footer">
+                 <div class="popup-footer-columns">
+                   <div class="popup-area">
+                     <input type="checkbox">
+                     <span><a href="" class="popup-links">Remember Me</a></span>
+                   </div>
+                   <div class="popup-area">
+                     <span><a href="" class="popup-links">Forgot Password?</a></span>
+                   </div>
+                 </div>
+                 <div class="popup-footer-columns">
+                   <div class="popup-area">
+                     <span>Don't have an account? <a href="#registration" class="popup-links">Sign Up</a></span>
+                   </div>
+                 </div>
+               </div>
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div id="registration" class="popup">
+       <div class="popup__body">
+         <div class="popup__content">
+           <div class="popup__content-header">
+           <h2 class="popup-title">Registration</h2>
+           <a href="" class="close-popup"><i class="fas fa-times"></i></a>
+         </div>
+         <div class="popup__content__body">
+           <form method="post" action="" class="popup-form">
+             <div class="input-area">
+               <div class="input-icon"><i class="fas fa-user"></i></div>
+               <input type="text" class="popup-input" placeholder="Username">
+             </div>
+             <div class="input-area">
+               <div class="input-icon"><i class="fas fa-envelope"></i></div>
+               <input type="text" class="popup-input" placeholder="E-mail">
+             </div>
+             <div class="input-area">
+               <div class="input-icon"><i class="fas fa-lock"></i></div>
+               <input type="password" class="popup-input" placeholder="Password">
+             </div>
+             <div class="input-area">
+               <div class="input-icon"><i class="fas fa-lock"></i></div>
+               <input type="password" class="popup-input" placeholder="Confirm Password">
+             </div>
+             <div class="popup-button-area">
+               <button class="popup-button">Sign Up</button>
+             </div>
+             <div class="popup-footer">
+               <div class="popup-footer-columns">
+                 <div class="popup-area">
+                   <input type="checkbox">
+                   <span><a href="" class="popup-link">Remember Me</a></span>
+                 </div>
+               </div>
+             </div>
+           </form>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+ <div class="arrowUp">
+     <i class="fas fa-arrow-up"></i>
+   </div>
+ </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+ <script src="js/main.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="js/modalWindows.js"></script>
+ <script src="js/java.js"></script>
+</body>
+</html>
